@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.resume{
+    height: 100%;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    
+}
+
+.name{
+    display: flex;
+    display: flex;
+    font-size: 20px;
+    font:bolder;
+    justify-content: center;
+    margin: 10px;
+}
+
+.block{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+
+.block label{
+    color: blueviolet;
+}
+
+.block ul{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.block ul li{
+    margin-top: 2px;
+}
+
+#block p{
+    margin-top: 10px;
+}
