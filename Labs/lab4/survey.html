@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Survey Form</h2>
+
+    <form>
+
+      <input type="text" placeholder="Enter your name" required>
+      <input type="email" placeholder="Enter your email" required>
+      <input type="number" placeholder="Enter your age" required>
+
+      <select>
+        <option>Student</option>
+        <option>Professional</option>
+        <option>Other</option>
+      </select>
+
+      <p>Would you recommend this survey form to a friend?</p>
+      <label><input type="radio" name="recommend"> Yes</label><br>
+      <label><input type="radio" name="recommend"> No</label><br>
+      <label><input type="radio" name="recommend"> Maybe</label><br>
+
+      <p>Languages and Frameworks known <span>(Check all that apply)</span></p>
+      <label><input type="checkbox"> Java</label><br>
+      <label><input type="checkbox"> Python</label><br>
+      <label><input type="checkbox"> React</label><br>
+      <label><input type="checkbox"> Angular</label><br>
+      <label><input type="checkbox"> Spring</label><br>
+
+      <p>Any comments or suggestions</p>
+      <textarea rows="3" placeholder="Write here..."></textarea>
+
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+
+</body>
+</html>
