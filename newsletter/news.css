@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.news{
+    height: 500px;
+    width: 500px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form{
+  
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    padding: 5px;
+    border: 2PX solid black;
+    height: 100PX;
+}
+
+
+form input{
+    width:auto;
+    margin-bottom: 10px;
+}
+
+form div{
+    display: flex;
+    gap: 5px;
+    width: auto;
+}
+
+.submit{
+    width: 10%;
+    background: #673ab7;
+    color: white;
+}
